@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2d2d2d;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #525252;
+            box-shadow: 20px 20px 20px rgb(0, 255, 17);
+            border-radius: 8px;
+            text-align: center;
+        }
+        h2 {
+            color: #ffffff;
+        }
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .highlight {
+            color: #00ff00;
+            font-weight: bold;
+        }
+        .team-section {
+            margin-top: 30px;
+        }
+        .team-title {
+            font-size: 20px;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+        .team-members {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .member {
+            flex-basis: 45%;
+            background-color: #444444;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 5px 10px 50px rgb(0, 255, 81);
+        }
+        .member h4 {
+            margin: 0;
+            color: #ffffff;
+        }
+        .member p {
+            margin: 5px 0;
+            color: #ffffff;
+        }
+
+        .back-button {
+            margin: 5%;
+            display: inline-block;
+            padding: 5px 20px;
+            font-size: 16px;
+            color: rgb(0, 0, 0);
+            background-color: #00ff5e;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+        .back-button:hover {
+            background-color: #00ff0db8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Tentang Kami</h2>
+        <p>Selamat datang di <span class="highlight">Bengkel Kinan Karunia Motor</span>! Kami adalah Bengkel yang bergerak dalam bidang <span class="highlight">layanan servis dan modifikasi motor</span> dengan komitmen memberikan hasil terbaik untuk pelanggan kami.</p>
+        <p>Jadwal Bengkel: Senin-Kamis,Sabtu-Minggu</p>
+        <span class="highlight">SETIAP HARI JUMAT SERVIS GRATIS, TAPI KAMI LIBUR</span>
+        <!-- Tim Kami -->
+        <div class="team-section">
+            <h3 class="team-title">Tim Kami</h3>
+            <div class="team-members">
+                <div class="member">
+                    <h4>KOH TO</h4>
+                    <p>Posisi: Owner sekaligus Mekanik</p>
+                    <p>Pengalaman: Lebih dari 20th Bekerja di Thailand</p>
+                </div>
+            </div>
+        </div>
+        <a href="index.html" class="back-button">Kembali</a>
+    </div>
+    
+</body>
+</html>
